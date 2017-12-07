@@ -1,0 +1,19 @@
+            .progressTable{
+                font-family: "Lucida Grande",Verdana,segoe ui,Arial,sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                border: none;
+                border-collapse: collapse;
+            }
+            .progressTable tr td{
+                text-align: center;
+                background: #cbcbcb;
+                color: white;
+                padding-bottom: 8.8px;
+                padding-top: 8.8px;                
+            }
+            .progressTable tr td.Active{
+                background: #006BB5;
+                color: #E79800;
+                font-weight: 600;                
+            }  

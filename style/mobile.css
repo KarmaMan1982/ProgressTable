@@ -1,0 +1,80 @@
+            .AVheaderBlock{
+                left: 0px;
+                top: 0px;
+                height: 40px;
+                width: 100%;
+                background: #00adde;
+                color: white;
+                font-family: segoe ui,Arial,sans-serif;
+                font-weight: bold;
+                font-size: 26px;
+                float: left;
+                padding: .5em 1em;
+                text-decoration: none;
+                background-attachment: scroll;
+                background-clip: border-box;
+                vertical-align: middle;
+                box-sizing: border-box;
+                color: rgb(255, 255, 255);
+                float: left;
+                font-family: segoe ui, Arial, sans-serif;
+                font-size: 17.6px;
+                font-weight: 700;
+                line-height: 22.8833px;
+                margin-bottom: -1px;
+                margin-left: 0px;
+                margin-right: 3.51667px;
+                margin-top: 1px;
+                position: relative;
+                top: 0px;
+                white-space: nowrap;
+                -moz-border-bottom-colors: none;
+                -moz-border-left-colors: none;
+                -moz-border-right-colors: none;
+                -moz-border-top-colors: none;                
+            }
+            .AVheaderBlock .update {
+                position: absolute;
+                left: 22.5%;
+                top: 12px;
+            }
+            .AVTable{
+                font-family: "Lucida Grande", Verdana, segoe ui, Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21px;
+                width: 100%;
+                border: none;
+                display: table;
+            }
+            .AVTable .attributeColumn {
+                width: 25%;
+                background: #cbcbcb;
+                padding: .45em 1em;
+                font-variant: small-caps;
+            }
+            .AVTable .valueColumn {
+                width: 75%;
+                padding: .45em 1em;
+                text-align: left !important;
+            }
+            .AVTable .valueColumnHalf {
+                width: auto;
+                max-width: 37.5%;
+                padding: .45em 1em;
+                text-align: left !important;
+            }
+            .AVTable .valueColumnHalf.colUnit{
+                width: 70%;
+            }
+            .AVTable .valueColumnHalf.colTime{
+                width: 20%;
+                text-align: left !important;
+            }            
+            .AVTable .valueColumnHalf.colButton{
+                width: auto;
+                text-align: left !important;
+            }
+            .AVTable .valueColumnHalf.colButton button{
+                width: 40% !important;
+            }              
