@@ -2,6 +2,9 @@
     <head>
         <title>Progress-Table</title>
         <?php if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 6.') !== false) { ?>
+        <!--
+        <link href="style/reset.css" rel="stylesheet" type="text/css"/>
+        -->
         <link href="lib/jquery-ui-1.9.2.custom/css/excite-bike/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css"/>
         <link href="style/oldIE.css" rel="stylesheet" type="text/css"/> 
         <?php } else { ?>
@@ -13,7 +16,8 @@
         <link href="style/ProgressTable.css" rel="stylesheet" type="text/css"/>        
         <?php if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 6.') !== false) { ?>
         <script src="lib/jquery-ui-1.9.2.custom/js/jquery-1.8.3.js" type="text/javascript"></script> 
-        <script src="lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.js" type="text/javascript"></script>         
+        <script src="lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.js" type="text/javascript"></script>
+        <script src="js/indexIE6.js" type="text/javascript"></script>          
         <?php } else { ?>        
         <script src="lib/jquery-ui-1.12.1/external/jquery/jquery.js" type="text/javascript"></script>
         <script src="lib/jquery-ui-1.12.1/jquery-ui.js" type="text/javascript"></script>
@@ -68,6 +72,8 @@
                 $ZyklusTable->outputTable();
 
             ?>
+        <br>
+        <a href="indexPDF.php">PDF erstellen</a>
         
     </body>
 </html>
