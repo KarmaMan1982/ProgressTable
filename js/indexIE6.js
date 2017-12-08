@@ -1,3 +1,8 @@
 $( document ).ready(function() {
-    $('.editText').width(99);
+    $('.editText').width(100);
+    var textStyle = {
+        borderStyle: 'solid',
+        borderWidth: '1px'
+    }
+    $('.editText').css(textStyle);
 });
