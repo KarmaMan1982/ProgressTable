@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $('.editText').width(100);
+    $('.editText').width(106);
     var textStyle = {
         borderStyle: 'solid',
         borderWidth: '1px'
